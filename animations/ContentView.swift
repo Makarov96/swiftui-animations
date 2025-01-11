@@ -7,29 +7,23 @@
 
 import SwiftUI
 
-
-extension CGAffineTransform {
-    
-}
-
 struct ContentView: View {
-    
-  
 
     var body: some View{
                 NavigationStack{
-        
+                    NavigationLink("Swift Card Animation"){
+                        StackedCard()
+                    }
+                    Divider().padding(.all,10)
                     NavigationLink( "Airbnb animation") {
                         AirbnbAnimation()
                     }
+                    Divider().padding(.all,10)
                     NavigationLink("Chromatic animation"){
                         ChromaticYuGiOhCard()
                         
                     }
                 }
-        
-     
-        
     }
     
     
