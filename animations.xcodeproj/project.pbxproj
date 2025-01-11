@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E124C11D2D90751A0025A25D /* CreditCardAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E124C11C2D90751A0025A25D /* CreditCardAnimation.swift */; };
 		E13341992C025167007DDB0C /* YuGiOh.metal in Sources */ = {isa = PBXBuildFile; fileRef = E13341982C025167007DDB0C /* YuGiOh.metal */; };
 		E133419D2C026458007DDB0C /* Acelerometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E133419C2C026458007DDB0C /* Acelerometer.swift */; };
 		E133419F2C02F6BC007DDB0C /* ChromaticYuGiOhCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E133419E2C02F6BC007DDB0C /* ChromaticYuGiOhCard.swift */; };
+		E136DBE52D2B027B00E10235 /* StackedCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E136DBE42D2B027500E10235 /* StackedCard.swift */; };
+		E136DBE72D2C424000E10235 /* Chips.swift in Sources */ = {isa = PBXBuildFile; fileRef = E136DBE62D2C423D00E10235 /* Chips.swift */; };
+		E136DBE92D2C6F9000E10235 /* CircleAvatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E136DBE82D2C6F8C00E10235 /* CircleAvatar.swift */; };
+		E14B98D52DA33F9900AC637C /* CrediCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14B98D42DA33F8F00AC637C /* CrediCardViewModel.swift */; };
 		E1A9A7B32BE5CD7B005AC78B /* BottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A9A7B22BE5CD7B005AC78B /* BottomSheet.swift */; };
 		E1A9A7B52BE5CDA1005AC78B /* CompositionText.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A9A7B42BE5CDA1005AC78B /* CompositionText.swift */; };
 		E1A9A7B72BE5CDC5005AC78B /* AirbnbCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A9A7B62BE5CDC5005AC78B /* AirbnbCard.swift */; };
@@ -40,9 +45,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E124C11C2D90751A0025A25D /* CreditCardAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardAnimation.swift; sourceTree = "<group>"; };
 		E13341982C025167007DDB0C /* YuGiOh.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = YuGiOh.metal; sourceTree = "<group>"; };
 		E133419C2C026458007DDB0C /* Acelerometer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Acelerometer.swift; sourceTree = "<group>"; };
 		E133419E2C02F6BC007DDB0C /* ChromaticYuGiOhCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChromaticYuGiOhCard.swift; sourceTree = "<group>"; };
+		E136DBE42D2B027500E10235 /* StackedCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackedCard.swift; sourceTree = "<group>"; };
+		E136DBE62D2C423D00E10235 /* Chips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chips.swift; sourceTree = "<group>"; };
+		E136DBE82D2C6F8C00E10235 /* CircleAvatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleAvatar.swift; sourceTree = "<group>"; };
+		E14B98D42DA33F8F00AC637C /* CrediCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrediCardViewModel.swift; sourceTree = "<group>"; };
 		E1A9A7B22BE5CD7B005AC78B /* BottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheet.swift; sourceTree = "<group>"; };
 		E1A9A7B42BE5CDA1005AC78B /* CompositionText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionText.swift; sourceTree = "<group>"; };
 		E1A9A7B62BE5CDC5005AC78B /* AirbnbCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirbnbCard.swift; sourceTree = "<group>"; };
@@ -83,6 +93,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E124C11B2D9074F70025A25D /* CreditCardAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				E14B98D42DA33F8F00AC637C /* CrediCardViewModel.swift */,
+				E124C11C2D90751A0025A25D /* CreditCardAnimation.swift */,
+			);
+			path = CreditCardAnimation;
+			sourceTree = "<group>";
+		};
 		E133419A2C026430007DDB0C /* YuGiOh */ = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +118,16 @@
 				E133419C2C026458007DDB0C /* Acelerometer.swift */,
 			);
 			path = Plugins;
+			sourceTree = "<group>";
+		};
+		E136DBE32D2B025100E10235 /* StackedCard */ = {
+			isa = PBXGroup;
+			children = (
+				E136DBE82D2C6F8C00E10235 /* CircleAvatar.swift */,
+				E136DBE62D2C423D00E10235 /* Chips.swift */,
+				E136DBE42D2B027500E10235 /* StackedCard.swift */,
+			);
+			path = StackedCard;
 			sourceTree = "<group>";
 		};
 		E1A9A7B12BE5CD67005AC78B /* Aribnb */ = {
@@ -134,6 +163,8 @@
 		E1B8A89C2BE342A70084D5B0 /* animations */ = {
 			isa = PBXGroup;
 			children = (
+				E124C11B2D9074F70025A25D /* CreditCardAnimation */,
+				E136DBE32D2B025100E10235 /* StackedCard */,
 				E133419A2C026430007DDB0C /* YuGiOh */,
 				E1A9A7B12BE5CD67005AC78B /* Aribnb */,
 				E1B8A89D2BE342A70084D5B0 /* animationsApp.swift */,
@@ -233,7 +264,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1530;
-				LastUpgradeCheck = 1530;
+				LastUpgradeCheck = 1620;
 				TargetAttributes = {
 					E1B8A8992BE342A70084D5B0 = {
 						CreatedOnToolsVersion = 15.3;
@@ -302,10 +333,15 @@
 				E13341992C025167007DDB0C /* YuGiOh.metal in Sources */,
 				E1A9A7B72BE5CDC5005AC78B /* AirbnbCard.swift in Sources */,
 				E1B8A8A02BE342A70084D5B0 /* ContentView.swift in Sources */,
+				E136DBE92D2C6F9000E10235 /* CircleAvatar.swift in Sources */,
 				E133419D2C026458007DDB0C /* Acelerometer.swift in Sources */,
+				E14B98D52DA33F9900AC637C /* CrediCardViewModel.swift in Sources */,
+				E124C11D2D90751A0025A25D /* CreditCardAnimation.swift in Sources */,
 				E1A9A7B52BE5CDA1005AC78B /* CompositionText.swift in Sources */,
 				E133419F2C02F6BC007DDB0C /* ChromaticYuGiOhCard.swift in Sources */,
 				E1A9A7B32BE5CD7B005AC78B /* BottomSheet.swift in Sources */,
+				E136DBE72D2C424000E10235 /* Chips.swift in Sources */,
+				E136DBE52D2B027B00E10235 /* StackedCard.swift in Sources */,
 				E1B8A89E2BE342A70084D5B0 /* animationsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -523,7 +559,6 @@
 		E1B8A8C22BE342A80084D5B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -543,7 +578,6 @@
 		E1B8A8C32BE342A80084D5B0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -563,7 +597,6 @@
 		E1B8A8C52BE342A80084D5B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PS665D4U8B;
@@ -581,7 +614,6 @@
 		E1B8A8C62BE342A80084D5B0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PS665D4U8B;
